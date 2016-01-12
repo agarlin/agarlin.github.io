@@ -187,7 +187,8 @@ section.project { background: white; }
 .project-items li img { -webkit-transition: all 0.2s linear, 1s; -moz-transition: all 0.2s linear, 1s; -o-transition: all 0.2s linear, 1s; -ms-transition: all 0.2s linear, 1s; transition: all 0.2s linear, 1s; }
 .project-items .item { position: relative; display: block; overflow: hidden; }
 .project-items .mask { width: 100%; height: 100%; background: url(../images/mask.png); position: absolute; left: 0px; top: 0px; z-index: 2; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")"; filter: alpha(opacity=0); opacity: 0; -webkit-transition: all 0.2s linear, 1s; -moz-transition: all 0.2s linear, 1s; -o-transition: all 0.2s linear, 1s; -ms-transition: all 0.2s linear, 1s; transition: all 0.2s linear, 1s; }
-.project-items .icons { position: absolute; width: 90px; height: 40px; left: 50%; top: 50%; margin: -21px auto 0 -47px; text-align: center; z-index: 3; }
+.project-items .icons { position: absolute; width: 90px; height: 40px; left: 60%; top: 50%; margin: -21px auto 0 -47px; text-align: center; z-index: 3; }
+.project-items .label { position: absolute; width: 90px; height: 40px; left: 40%; top: 90%; margin: -21px auto 0 -47px; text-align: center; z-index: 3; font-size: 30px}
 .project-items .icons i { color: white; font-size: 20px; margin-top: 9px; }
 .project-items .projectlink, .project-items .fullwidth { width: 40px; height: 40px; background: #42566B; position: relative; -webkit-transition: all 0.2s ease-in-out, 0.2s; -moz-transition: all 0.2s ease-in-out, 0.2s; -o-transition: all 0.2s ease-in-out, 0.2s; -ms-transition: all 0.2s ease-in-out, 0.2s; transition: all 0.2s ease-in-out, 0.2s; }
 .project-items .fullwidth { float: left; top: -200px; }
